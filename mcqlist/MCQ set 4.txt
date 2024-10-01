@@ -1,0 +1,219 @@
+Easy Level (1-10)
+1.Which of the following is not a keyword in Java?
+
+a) public
+b) class
+c) extends
+d) main
+Answer: d) main
+2.Which of these is the correct syntax to create an object in Java?
+
+a) Class obj = new Class();
+b) Class obj = Class();
+c) Class obj;
+d) Class() obj = new Class;
+Answer: a) Class obj = new Class();
+3.What is the size of an int in Java?
+
+a) 8 bits
+b) 16 bits
+c) 32 bits
+d) 64 bits
+Answer: c) 32 bits
+4.Which method is used to find the length of a string in Java?
+
+a) length()
+b) size()
+c) getLength()
+d) strlen()
+Answer: a) length()
+5.Which of these data types can store the value true or false?
+
+a) boolean
+b) char
+c) byte
+d) int
+Answer: a) boolean
+6.Which operator is used to compare two values for equality in Java?
+
+a) =
+b) ==
+c) !=
+d) equals
+Answer: b) ==
+7.In Java, an ArrayList is part of which package?
+
+a) java.util
+b) java.io
+c) java.lang
+d) java.sql
+Answer: a) java.util
+8.What will the expression 5 + 2 * 3 evaluate to?
+
+a) 21
+b) 11
+c) 17
+d) 9
+Answer: b) 11
+9.Which of the following is not a primitive data type in Java?
+
+a) int
+b) float
+c) String
+d) char
+Answer: c) String
+10.Which keyword is used to create a subclass in Java?
+
+a) extends
+b) implements
+c) inherits
+d) super
+Answer: a) extends
+
+Medium Level (11-20)
+11.Which of the following is true about inheritance in Java?
+
+a) A class can extend multiple classes.
+b) A class can implement multiple interfaces.
+c) An interface can extend a class.
+d) A class can inherit from an interface.
+Answer: b) A class can implement multiple interfaces.
+12.What is the output of the following code?
+System.out.println(10 / 3);
+a) 3.33
+b) 3
+c) 3.0
+d) Compile-time error
+Answer: b) 3
+13.Which of these classes is used to read from a file in Java?
+
+a) FileReader
+b) BufferedWriter
+c) FileOutputStream
+d) PrintWriter
+Answer: a) FileReader
+14.Which of these is true about Java final keyword?
+
+a) A final class cannot be inherited.
+b) A final method can be overridden.
+c) A final variable can be re-assigned.
+d) A final variable must be initialized at the time of declaration.
+Answer: a) A final class cannot be inherited.
+15.Which of the following is correct about interfaces in Java?
+
+a) Interfaces can contain method implementations.
+b) Interfaces cannot be extended.
+c) Interfaces can extend multiple interfaces.
+d) A class can implement only one interface.
+Answer: c) Interfaces can extend multiple interfaces.
+
+16.What will be the output of the following code snippet?
+int x = 5;
+x += x++ + ++x + x;
+System.out.println(x);
+
+a) 20
+b) 22
+c) 23
+d) 24
+Answer: c) 23
+
+17.Which exception is thrown when an array is accessed with an illegal index in Java?
+
+a) NullPointerException
+b) NumberFormatException
+c) ArrayIndexOutOfBoundsException
+d) ArithmeticException
+Answer: c) ArrayIndexOutOfBoundsException
+
+18.Which of the following is not a feature of Java?
+
+a) Object-oriented
+b) Platform-independent
+c) Use of pointers
+d) Multi-threaded
+Answer: c) Use of pointers
+
+19.In Java, which operator is used to compare two values for equality?
+
+a) =
+b) ==
+c) .equals()
+d) Both b and c
+Answer: d) Both b and c
+
+20.What is the output of the following code?
+
+java
+Copy code
+String str = "Hello";
+str.concat(" World");
+System.out.println(str);
+a) Hello
+b) Hello World
+c) Error at runtime
+d) None of the above
+Answer: a) Hello
+
+Hard Level (21-25)
+21.Which of the following statements about Java Generics is true?
+
+a) Generics enable types (classes and interfaces) to be parameters when defining classes, interfaces, and methods.
+b) Generics are used for storing primitive types only.
+c) Generics were introduced in Java 1.4.
+d) Generics cause code redundancy.
+Answer: a) Generics enable types (classes and interfaces) to be parameters when defining classes, interfaces, and methods.
+
+22.What will be the output of the following code snippet?
+
+java
+Copy code
+try {
+    int a[] = {1, 2, 3};
+    System.out.println(a[5]);
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Array Exception");
+} catch (Exception e) {
+    System.out.println("General Exception");
+}
+a) Array Exception
+b) General Exception
+c) Compilation Error
+d) No output
+Answer: a) Array Exception
+
+23.Which of the following is the correct way to make a class immutable in Java?
+
+a) Declare the class as final.
+b) Make all fields private and final.
+c) Provide getter methods but no setters.
+d) All of the above.
+Answer: d) All of the above.
+
+24.What is the difference between StringBuilder and StringBuffer in Java?
+
+a) StringBuilder is immutable, StringBuffer is mutable.
+b) StringBuilder is synchronized, StringBuffer is not.
+c) StringBuilder is not synchronized, StringBuffer is synchronized.
+d) There is no difference.
+Answer: c) StringBuilder is not synchronized, StringBuffer is synchronized.
+
+25.Which of the following is true about the Java memory model?
+
+a) The heap stores all local variables.
+b) The stack stores all objects.
+c) The heap stores all objects and the stack stores references to the objects.
+d) The stack stores both local variables and objects.
+Answer: c) The heap stores all objects and the stack stores references to the objects.
+
+
+
+
+
+
+
+
+
+
+
+Can you explain more about Java interfaces?
